@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style2.css">
+    <title>Страница бронирования</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Главная</a></li>
+                <li><a href="">Филиалы</a></li>
+                <li><a href="">Бронирование</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="booking-form">
+        <h2>Форма бронирования</h2>
+
+        <form>
+            <fieldset>
+                <legend>Данные о авто</legend>
+                <label for="carName">Название авто:</label>
+                <input type="text" id="carId" name="carId" required>
+
+                <label for="branch">Филиал:</label>
+                <select id="branch" name="branch">
+                    <option value="branch1">1</option>
+                    <option value="branch2">2</option>
+                    <option value="branch3">3</option>
+                    <option value="branch4">4</option>
+                    <option value="branch5">5</option>
+
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Данные о клиенте</legend>
+                <label for="firstName">ФИО:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="cardNumber">Банковская карта:</label>
+                <input type="text" id="cardNumber" name="cardNumber"required>
+
+                <label for="cardNumber">Паспортные данные:</label>
+                <input type="text" id="cardNumber" name="cardNumber"required>
+
+                <label for="cardNumber">Номер телефона:</label>
+                <input type="text" id="cardNumber" name="cardNumber"required>
+            </fieldset>
+
+
+            <button type="submit">Забронировать</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2023 Индекс Драйв. Все права защищены.
+            <sub><small>по всем вопросам звонить на 8 (800) 111-11-11</small><sub></p>
+    </footer>
+</body>
+</html>
